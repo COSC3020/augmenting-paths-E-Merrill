@@ -32,3 +32,9 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+**The worst case complexity of this implementation would be $\theta(|V| + |E|)$. More specifically, it would be $\theta(3|V| + 2|E|)$. In the worst case scenario, the target node would not be accessible from the starting node, and each subsequent node from the start would just be linked in a line, and then back, similar to provided example with nodes 'foo', 'boo', and 'bar'. This would result in the algorithm iterating over every edge in every node, giving $|V| + |E|$. Then it would iterate back to the starting node, again going through every node and edge except the target node, giving another $|V| + |E|$. These together net $2|V| + 2|E|$, however at the start of the algorithm an object is created for every node in the graph. This ends up adding another $|V|$ to the total complexity in almost any case, which includes the worst case. Adding everything together nets the final runtime complexity of $\theta(3|V| + 2|E|)$, or also just $\theta(|V| + |E|)$**
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+I recieved a ton of help from Natalie Sleight, pretty much my whole understanding of the assignment was because of her help. 
