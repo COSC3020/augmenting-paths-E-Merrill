@@ -37,4 +37,4 @@ answer, including your reasoning, to this markdown file.
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 
-I recieved a ton of help from Natalie Sleight, pretty much my whole understanding of the assignment was because of her help. 
+I recieved a ton of help from Natalie Sleight, pretty much my whole understanding of the assignment was because of her help. She helped me realize that it was basically just Dijkstra's but a little different (mostly because of using strings rather than numbers.) She also gave me the idea of using objects to get keys for every node name in order to more easily compare a given node to the target node. 
